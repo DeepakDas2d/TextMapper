@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Space between the boxes */
+}
+
+.box {
+  width: 45%; /* Adjust width of each box */
+}
+
+.input-box,
+.output-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 200px;
+  overflow-y: scroll;
+  margin: 10px 0;
+}
+
+.input-box p,
+.output-box p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: yellow; /* Highlight color */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
